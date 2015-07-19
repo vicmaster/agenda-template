@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  goal: MyString
+  type: 
+  agenda: MyText
+  required: MyString
+  optional: MyString
+  preparation: MyText
+
+two:
+  goal: MyString
+  type: 
+  agenda: MyText
+  required: MyString
+  optional: MyString
+  preparation: MyText

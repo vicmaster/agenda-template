@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Goal:</strong>
+  <%= @template.goal %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @template.type %>
+</p>
+
+<p>
+  <strong>Agenda:</strong>
+  <%= @template.agenda %>
+</p>
+
+<p>
+  <strong>Required:</strong>
+  <%= @template.required %>
+</p>
+
+<p>
+  <strong>Optional:</strong>
+  <%= @template.optional %>
+</p>
+
+<p>
+  <strong>Preparation:</strong>
+  <%= @template.preparation %>
+</p>
+
+<%= link_to 'Edit', edit_template_path(@template) %> |
+<%= link_to 'Back', templates_path %>
